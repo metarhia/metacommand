@@ -1,8 +1,8 @@
 {
-  "name": "metacli",
+  "name": "metacommand",
   "version": "0.0.0",
   "description": "Metarhia command-line interface utilities",
-  "main": "metacli.js",
+  "main": "metacommand.js",
   "files": [],
   "scripts": {
     "lint": "eslint . && prettier --check \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/.*rc\" \"**/*.yml\" \"**/*.ts\"",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metarhia/metacli.git"
+    "url": "git+https://github.com/metarhia/metacommand.git"
   },
   "keywords": [
     "node.js",
@@ -21,9 +21,9 @@
   "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/metarhia/metacli/issues"
+    "url": "https://github.com/metarhia/metacommand/issues"
   },
-  "homepage": "https://github.com/metarhia/metacli#readme",
+  "homepage": "https://github.com/metarhia/metacommand#readme",
   "devDependencies": {
     "eslint": "^7.8.1",
     "eslint-config-metarhia": "^7.0.1",

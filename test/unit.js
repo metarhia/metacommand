@@ -1,9 +1,9 @@
 'use strict';
 
-const metacli = require('..');
+const metacommand = require('..');
 const metatests = require('metatests');
 
 metatests.test('Test stub', async test => {
-  test.strictSame(metacli, {});
+  test.strictSame(metacommand, {});
   test.end();
 });
